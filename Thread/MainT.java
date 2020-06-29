@@ -1,5 +1,11 @@
 package org.mycode.threads;
 
+/*
+ * simple way to create a thread
+ * to use this in an application you will need to make sure to cancel your thread when the work is done
+ * and you have to be aware of deadlock, race conditions, etc.
+ * 
+ * */
 public class MainT {
 
 	public static void main(String[] args) {
